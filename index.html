@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="currency-container">
+            <div class="input-box">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" placeholder="Enter amount">
+            </div>
+            <div class="box">
+                <select id="fromCurrency">
+                    <option value="INR">INR - Indian Rupee</option>
+                    <option value="USD">USD - US Dollar</option>
+                    <option value="EUR">EUR - Euro</option>
+                    <option value="GBP">GBP - British Pound</option>
+                    <option value="JPY">JPY - Japanese Yen</option>
+                    <option value="CAD">CAD - Canadian Dollar</option>
+                    <option value="AUD">AUD - Australian Dollar</option>
+                    <option value="CHF">CHF - Swiss Franc</option>
+                    <option value="SEK">SEK - Swedish Krona</option>
+                    <option value="NOK">NOK - Norwegian Krone</option>
+                    <option value="DKK">DKK - Danish Krone</option>
+                    <option value="RUB">RUB - Russian Ruble</option>
+                    <option value="BRL">BRL - Brazilian Real</option>
+                    <option value="ZAR">ZAR - South African Rand</option>
+                    <option value="NZD">NZD - New Zealand Dollar</option>
+                    <option value="SGD">SGD - Singapore Dollar</option>
+                    <option value="HKD">HKD - Hong Kong Dollar</option>
+                    <option value="TWD">TWD - New Taiwan Dollar</option>
+                    <option value="THB">THB - Thai Baht</option>
+                    <option value="CNY">CNY - Chinese Yuan</option>
+                    <option value="NPR">NPR - Nepalese Rupee</option>
+                    <option value="BDT">BDT - Bangladeshi Taka</option>
+                </select>
+            </div>
+            <div class="box">
+                <select id="toCurrency">
+                    <option value="USD">USD - US Dollar</option>
+                    <option value="EUR">EUR - Euro</option>
+                    <option value="GBP">GBP - British Pound</option>
+                    <option value="JPY">JPY - Japanese Yen</option>
+                    <option value="CAD">CAD - Canadian Dollar</option>
+                    <option value="AUD">AUD - Australian Dollar</option>
+                    <option value="CHF">CHF - Swiss Franc</option>
+                    <option value="SEK">SEK - Swedish Krona</option>
+                    <option value="NOK">NOK - Norwegian Krone</option>
+                    <option value="DKK">DKK - Danish Krone</option>
+                    <option value="RUB">RUB - Russian Ruble</option>
+                    <option value="BRL">BRL - Brazilian Real</option>
+                    <option value="ZAR">ZAR - South African Rand</option>
+                    <option value="NZD">NZD - New Zealand Dollar</option>
+                    <option value="SGD">SGD - Singapore Dollar</option>
+                    <option value="HKD">HKD - Hong Kong Dollar</option>
+                    <option value="TWD">TWD - New Taiwan Dollar</option>
+                    <option value="THB">THB - Thai Baht</option>
+                    <option value="CNY">CNY - Chinese Yuan</option>
+                    <option value="NPR">NPR - Nepalese Rupee</option>
+                    <option value="BDT">BDT - Bangladeshi Taka</option>
+                    <option value="INR">INR - Indian Rupee</option>
+
+                </select>
+            </div>
+            <div class="button-box"><button id="convert">Convert</button>
+            </div>
+            <div class="output-box">
+                <label for="result">Result:</label>
+                <input type="text" id="result" readonly>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
